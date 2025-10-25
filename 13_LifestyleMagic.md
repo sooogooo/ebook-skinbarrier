@@ -22,57 +22,39 @@
     *   **致痘原理（“糖化-长痘”连锁反应）**：
 
 <svg width="100%" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="800" height="250" fill="#f9fafb"/>
-  <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">高GI饮食致痘连锁反应</text>
-
-  <!-- Step 1 -->
-  <g>
-    <rect x="20" y="100" width="140" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
-    <text x="90" y="130" text-anchor="middle" font-weight="bold" fill="#7f1d1d">摄入高GI食物</text>
-    <text x="90" y="155" text-anchor="middle" font-size="12" fill="#991b1b">(甜食/精制碳水)</text>
-  </g>
-
-  <!-- Arrow 1 -->
-  <line x1="160" y1="140" x2="190" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
-  <defs>
-    <marker id="arrow-acne" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b91c1c"/>
-    </marker>
-  </defs>
-
-  <!-- Step 2 -->
-  <g>
-    <rect x="190" y="100" width="120" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
-    <text x="250" y="140" text-anchor="middle" font-weight="bold" fill="#7f1d1d">血糖骤升</text>
-  </g>
-
-  <!-- Arrow 2 -->
-  <line x1="310" y1="140" x2="340" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
-
-  <!-- Step 3 -->
-  <g>
-    <rect x="340" y="100" width="140" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
-    <text x="410" y="130" text-anchor="middle" font-weight="bold" fill="#7f1d1d">胰岛素/雄激素</text>
-    <text x="410" y="155" text-anchor="middle" font-weight="bold" fill="#7f1d1d">分泌增加</text>
-  </g>
-
-  <!-- Arrow 3 -->
-  <line x1="480" y1="140" x2="510" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
-
-  <!-- Step 4 -->
-  <g>
-    <rect x="510" y="100" width="120" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
-    <text x="570" y="140" text-anchor="middle" font-weight="bold" fill="#7f1d1d">皮脂过度分泌</text>
-  </g>
-
-  <!-- Arrow 4 -->
-  <line x1="630" y1="140" x2="660" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
-
-  <!-- Step 5 -->
-  <g>
-    <rect x="660" y="100" width="120" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
-    <text x="720" y="140" text-anchor="middle" font-weight="bold" fill="#7f1d1d">痤疮 / 闭口</text>
-  </g>
+<rect x="0" y="0" width="800" height="250" fill="#f9fafb"/>
+<text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">高GI饮食致痘连锁反应</text>
+<g>
+<rect x="20" y="100" width="140" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
+<text x="90" y="130" text-anchor="middle" font-weight="bold" fill="#7f1d1d">摄入高GI食物</text>
+<text x="90" y="155" text-anchor="middle" font-size="12" fill="#991b1b">(甜食/精制碳水)</text>
+</g>
+<line x1="160" y1="140" x2="190" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
+<defs>
+<marker id="arrow-acne" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#b91c1c"/>
+</marker>
+</defs>
+<g>
+<rect x="190" y="100" width="120" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
+<text x="250" y="140" text-anchor="middle" font-weight="bold" fill="#7f1d1d">血糖骤升</text>
+</g>
+<line x1="310" y1="140" x2="340" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
+<g>
+<rect x="340" y="100" width="140" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
+<text x="410" y="130" text-anchor="middle" font-weight="bold" fill="#7f1d1d">胰岛素/雄激素</text>
+<text x="410" y="155" text-anchor="middle" font-weight="bold" fill="#7f1d1d">分泌增加</text>
+</g>
+<line x1="480" y1="140" x2="510" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
+<g>
+<rect x="510" y="100" width="120" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
+<text x="570" y="140" text-anchor="middle" font-weight="bold" fill="#7f1d1d">皮脂过度分泌</text>
+</g>
+<line x1="630" y1="140" x2="660" y2="140" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-acne)"/>
+<g>
+<rect x="660" y="100" width="120" height="80" rx="10" fill="#fee2e2" stroke="#ef4444"/>
+<text x="720" y="140" text-anchor="middle" font-weight="bold" fill="#7f1d1d">痤疮 / 闭口</text>
+</g>
 </svg>
 
         1.  摄入高GI食物 → 血糖骤升。

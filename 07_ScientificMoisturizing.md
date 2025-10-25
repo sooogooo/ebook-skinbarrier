@@ -14,40 +14,40 @@
 ### 7.1 保湿体系的三大支柱：抓水、补油、盖盖子
 
 <svg width="100%" viewBox="0 0 800 350" xmlns="http://www.w.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="800" height="350" fill="#f9fafb"/>
-  <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">科学保湿的三大支柱</text>
+<rect x="0" y="0" width="800" height="350" fill="#f9fafb"/>
+<text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">科学保湿的三大支柱</text>
 
-  <g id="humectants">
-    <rect x="100" y="280" width="150" height="20" rx="5" fill="#a5b4fc"/>
-    <rect x="110" y="100" width="130" height="180" fill="#c7d2fe"/>
-    <path d="M100 100 L250 100 L225 80 L125 80 Z" fill="#818cf8"/>
-    <text x="175" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#312e81">吸湿剂</text>
-    <text x="175" y="175" text-anchor="middle" font-size="16" fill="#4338ca">(抓水工)</text>
-    <path d="M175 210 C165 220, 165 240, 175 250 C185 240, 185 220, 175 210 Z" fill="#3b82f6"/>
-    <text x="175" y="325" text-anchor="middle" font-size="14" fill="#4b5563">作用：补充水分</text>
-  </g>
+<g id="humectants">
+<rect x="100" y="280" width="150" height="20" rx="5" fill="#a5b4fc"/>
+<rect x="110" y="100" width="130" height="180" fill="#c7d2fe"/>
+<path d="M100 100 L250 100 L225 80 L125 80 Z" fill="#818cf8"/>
+<text x="175" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#312e81">吸湿剂</text>
+<text x="175" y="175" text-anchor="middle" font-size="16" fill="#4338ca">(抓水工)</text>
+<path d="M175 210 C165 220, 165 240, 175 250 C185 240, 185 220, 175 210 Z" fill="#3b82f6"/>
+<text x="175" y="325" text-anchor="middle" font-size="14" fill="#4b5563">作用：补充水分</text>
+</g>
 
-  <g id="emollients">
-    <rect x="325" y="280" width="150" height="20" rx="5" fill="#fca5a5"/>
-    <rect x="335" y="100" width="130" height="180" fill="#fecaca"/>
-    <path d="M325 100 L475 100 L450 80 L350 80 Z" fill="#ef4444"/>
-    <text x="400" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#991b1b">润肤剂</text>
-    <text x="400" y="175" text-anchor="middle" font-size="16" fill="#b91c1c">(补油工)</text>
-    <circle cx="400" cy="220" r="10" fill="#dc2626"/>
-    <line x1="400" y1="230" x2="390" y2="250" stroke="#dc2626" stroke-width="3"/>
-    <line x1="400" y1="230" x2="410" y2="250" stroke="#dc2626" stroke-width="3"/>
-    <text x="400" y="325" text-anchor="middle" font-size="14" fill="#4b5563">作用：修复结构</text>
-  </g>
+<g id="emollients">
+<rect x="325" y="280" width="150" height="20" rx="5" fill="#fca5a5"/>
+<rect x="335" y="100" width="130" height="180" fill="#fecaca"/>
+<path d="M325 100 L475 100 L450 80 L350 80 Z" fill="#ef4444"/>
+<text x="400" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#991b1b">润肤剂</text>
+<text x="400" y="175" text-anchor="middle" font-size="16" fill="#b91c1c">(补油工)</text>
+<circle cx="400" cy="220" r="10" fill="#dc2626"/>
+<line x1="400" y1="230" x2="390" y2="250" stroke="#dc2626" stroke-width="3"/>
+<line x1="400" y1="230" x2="410" y2="250" stroke="#dc2626" stroke-width="3"/>
+<text x="400" y="325" text-anchor="middle" font-size="14" fill="#4b5563">作用：修复结构</text>
+</g>
 
-  <g id="occlusives">
-    <rect x="550" y="280" width="150" height="20" rx="5" fill="#a3bfb8"/>
-    <rect x="560" y="100" width="130" height="180" fill="#d1d5db"/>
-    <path d="M550 100 L700 100 L675 80 L575 80 Z" fill="#6b7280"/>
-    <text x="625" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">封闭剂</text>
-    <text x="625" y="175" text-anchor="middle" font-size="16" fill="#4b5563">(盖盖工)</text>
-    <path d="M625 200 C605 210, 605 240, 625 250 L625 200 C645 210, 645 240, 625 250 Z" fill="#4b5563"/>
-    <text x="625" y="325" text-anchor="middle" font-size="14" fill="#4b5563">作用：锁住水分</text>
-  </g>
+<g id="occlusives">
+<rect x="550" y="280" width="150" height="20" rx="5" fill="#a3bfb8"/>
+<rect x="560" y="100" width="130" height="180" fill="#d1d5db"/>
+<path d="M550 100 L700 100 L675 80 L575 80 Z" fill="#6b7280"/>
+<text x="625" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">封闭剂</text>
+<text x="625" y="175" text-anchor="middle" font-size="16" fill="#4b5563">(盖盖工)</text>
+<path d="M625 200 C605 210, 605 240, 625 250 L625 200 C645 210, 645 240, 625 250 Z" fill="#4b5563"/>
+<text x="625" y="325" text-anchor="middle" font-size="14" fill="#4b5563">作用：锁住水分</text>
+</g>
 </svg>
 
 一个真正有效的保湿产品，其配方思路通常建立在“保湿体系三大支柱”之上。理解了这个体系，你就能看透市面上99%的保湿产品，不再被天花乱坠的营销概念所迷惑。
@@ -117,55 +117,55 @@
     *   **你需要“呼吸感”**。你的屏障同样需要“黄金三剑客”，但你需要更清爽的载体。请选择**乳液 (Lotion) 或啫喱面霜 (Gel-Cream)**。它们在保证核心修复成分添加的同时，减少了强封闭剂的用量，肤感更轻盈，不易给毛孔带来额外负担。
 
 <svg width="100%" viewBox="0 0 600 450" xmlns="http://www.w.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="600" height="450" fill="#f9fafb"/>
-  <title>保湿品质地选择四象限图</title>
-  
-  <!-- Titles and Axis Labels -->
-  <text x="300" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">保湿品质地选择四象限图</text>
-  <text x="300" y="420" text-anchor="middle" font-size="16" fill="#374151">肤质 (Skin Type)</text>
-  <text x="40" y="225" text-anchor="middle" transform="rotate(-90, 40, 225)" font-size="16" fill="#374151">季节 (Season)</text>
+<rect x="0" y="0" width="600" height="450" fill="#f9fafb"/>
+<title>保湿品质地选择四象限图</title>
 
-  <!-- Axis Lines -->
-  <line x1="100" y1="225" x2="500" y2="225" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow-h)"/>
-  <line x1="300" y1="350" x2="300" y2="70" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow-v)"/>
-  <defs>
-    <marker id="arrow-h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/></marker>
-    <marker id="arrow-v" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse" transform="rotate(180 5 5)"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/></marker>
-  </defs>
-  
-  <!-- Axis Values -->
-  <text x="100" y="380" text-anchor="middle" font-size="14">油性</text>
-  <text x="500" y="380" text-anchor="middle" font-size="14">干性</text>
-  <text x="80" y="80" text-anchor="end" font-size="14">夏季</text>
-  <text x="80" y="350" text-anchor="end" font-size="14">冬季</text>
+<!-- Titles and Axis Labels -->
+<text x="300" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">保湿品质地选择四象限图</text>
+<text x="300" y="420" text-anchor="middle" font-size="16" fill="#374151">肤质 (Skin Type)</text>
+<text x="40" y="225" text-anchor="middle" transform="rotate(-90, 40, 225)" font-size="16" fill="#374151">季节 (Season)</text>
 
-  <!-- Quadrant 1: Summer / Oily -->
-  <g id="q1">
-    <rect x="100" y="75" width="200" height="150" fill="#e0f2fe"/>
-    <text x="200" y="140" text-anchor="middle" font-size="24" font-weight="bold" fill="#0c4a6e">啫喱/凝露</text>
-    <text x="200" y="170" text-anchor="middle" font-size="16" fill="#075985">(Gel)</text>
-  </g>
+<!-- Axis Lines -->
+<line x1="100" y1="225" x2="500" y2="225" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow-h)"/>
+<line x1="300" y1="350" x2="300" y2="70" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow-v)"/>
+<defs>
+<marker id="arrow-h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/></marker>
+<marker id="arrow-v" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse" transform="rotate(180 5 5)"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/></marker>
+</defs>
 
-  <!-- Quadrant 2: Summer / Dry -->
-  <g id="q2">
-    <rect x="300" y="75" width="200" height="150" fill="#f3e8ff"/>
-    <text x="400" y="140" text-anchor="middle" font-size="24" font-weight="bold" fill="#581c87">乳液</text>
-    <text x="400" y="170" text-anchor="middle" font-size="16" fill="#6b21a8">(Lotion)</text>
-  </g>
+<!-- Axis Values -->
+<text x="100" y="380" text-anchor="middle" font-size="14">油性</text>
+<text x="500" y="380" text-anchor="middle" font-size="14">干性</text>
+<text x="80" y="80" text-anchor="end" font-size="14">夏季</text>
+<text x="80" y="350" text-anchor="end" font-size="14">冬季</text>
 
-  <!-- Quadrant 3: Winter / Oily -->
-  <g id="q3">
-    <rect x="100" y="225" width="200" height="150" fill="#fefce8"/>
-    <text x="200" y="290" text-anchor="middle" font-size="24" font-weight="bold" fill="#854d0e">面霜</text>
-    <text x="200" y="320" text-anchor="middle" font-size="16" fill="#a16207">(Cream)</text>
-  </g>
+<!-- Quadrant 1: Summer / Oily -->
+<g id="q1">
+<rect x="100" y="75" width="200" height="150" fill="#e0f2fe"/>
+<text x="200" y="140" text-anchor="middle" font-size="24" font-weight="bold" fill="#0c4a6e">啫喱/凝露</text>
+<text x="200" y="170" text-anchor="middle" font-size="16" fill="#075985">(Gel)</text>
+</g>
 
-  <!-- Quadrant 4: Winter / Dry -->
-  <g id="q4">
-    <rect x="300" y="225" width="200" height="150" fill="#fee2e2"/>
-    <text x="400" y="290" text-anchor="middle" font-size="24" font-weight="bold" fill="#991b1b">软膏/油</text>
-    <text x="400" y="320" text-anchor="middle" font-size="16" fill="#b91c1c">(Ointment/Oil)</text>
-  </g>
+<!-- Quadrant 2: Summer / Dry -->
+<g id="q2">
+<rect x="300" y="75" width="200" height="150" fill="#f3e8ff"/>
+<text x="400" y="140" text-anchor="middle" font-size="24" font-weight="bold" fill="#581c87">乳液</text>
+<text x="400" y="170" text-anchor="middle" font-size="16" fill="#6b21a8">(Lotion)</text>
+</g>
+
+<!-- Quadrant 3: Winter / Oily -->
+<g id="q3">
+<rect x="100" y="225" width="200" height="150" fill="#fefce8"/>
+<text x="200" y="290" text-anchor="middle" font-size="24" font-weight="bold" fill="#854d0e">面霜</text>
+<text x="200" y="320" text-anchor="middle" font-size="16" fill="#a16207">(Cream)</text>
+</g>
+
+<!-- Quadrant 4: Winter / Dry -->
+<g id="q4">
+<rect x="300" y="225" width="200" height="150" fill="#fee2e2"/>
+<text x="400" y="290" text-anchor="middle" font-size="24" font-weight="bold" fill="#991b1b">软膏/油</text>
+<text x="400" y="320" text-anchor="middle" font-size="16" fill="#b91c1c">(Ointment/Oil)</text>
+</g>
 </svg>
 
 ---

@@ -14,47 +14,47 @@
 让我们以“皮肤求救信号等级”的形式，来将这些信号从轻到重进行划分：
 
 <svg width="100%" viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
-      <feOffset dx="2" dy="2" result="offsetblur"/>
-      <feComponentTransfer>
-        <feFuncA type="linear" slope="0.5"/>
-      </feComponentTransfer>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  
-  <rect x="0" y="0" width="500" height="320" fill="#f9fafb"/>
-  <text x="250" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">皮肤求救信号等级</text>
+<defs>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+<feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+<feOffset dx="2" dy="2" result="offsetblur"/>
+<feComponentTransfer>
+<feFuncA type="linear" slope="0.5"/>
+</feComponentTransfer>
+<feMerge>
+<feMergeNode/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
 
-  <!-- Gauge Background -->
-  <path d="M 100 250 A 150 150 0 0 1 400 250" fill="none" stroke="#e5e7eb" stroke-width="40"/>
-  
-  <!-- Yellow Zone -->
-  <path d="M 100 250 A 150 150 0 0 1 163.4 125" fill="none" stroke="#facc15" stroke-width="40"/>
-  <text x="110" y="110" fill="#ca8a04" font-weight="bold">黄色预警</text>
-  <text x="110" y="130" fill="#ca8a04" font-size="12">紧绷 / 外油内干 / 粗糙</text>
-  
-  <!-- Orange Zone -->
-  <path d="M 163.4 125 A 150 150 0 0 1 336.6 125" fill="none" stroke="#fb923c" stroke-width="40"/>
-  <text x="250" y="80" text-anchor="middle" fill="#ea580c" font-weight="bold">橙色预警</text>
-  <text x="250" y="100" text-anchor="middle" fill="#ea580c" font-size="12">刺痛 / 泛红 / 脱屑</text>
+<rect x="0" y="0" width="500" height="320" fill="#f9fafb"/>
+<text x="250" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">皮肤求救信号等级</text>
 
-  <!-- Red Zone -->
-  <path d="M 336.6 125 A 150 150 0 0 1 400 250" fill="none" stroke="#f87171" stroke-width="40"/>
-  <text x="390" y="110" text-anchor="end" fill="#dc2626" font-weight="bold">红色警报</text>
-  <text x="390" y="130" text-anchor="end" fill="#dc2626" font-size="12">灼痛 / 红肿 / 丘疹</text>
+<!-- Gauge Background -->
+<path d="M 100 250 A 150 150 0 0 1 400 250" fill="none" stroke="#e5e7eb" stroke-width="40"/>
 
-  <!-- Needle -->
-  <g transform="translate(250, 250)" filter="url(#shadow)">
-    <line x1="0" y1="0" x2="-100" y2="-100" stroke="#111827" stroke-width="4" transform="rotate(0)"/>
-    <circle cx="0" cy="0" r="10" fill="#1f2937"/>
-  </g>
-  <text x="250" y="280" text-anchor="middle" font-size="14" fill="#4b5563">你的皮肤正处于哪个阶段？</text>
+<!-- Yellow Zone -->
+<path d="M 100 250 A 150 150 0 0 1 163.4 125" fill="none" stroke="#facc15" stroke-width="40"/>
+<text x="110" y="110" fill="#ca8a04" font-weight="bold">黄色预警</text>
+<text x="110" y="130" fill="#ca8a04" font-size="12">紧绷 / 外油内干 / 粗糙</text>
+
+<!-- Orange Zone -->
+<path d="M 163.4 125 A 150 150 0 0 1 336.6 125" fill="none" stroke="#fb923c" stroke-width="40"/>
+<text x="250" y="80" text-anchor="middle" fill="#ea580c" font-weight="bold">橙色预警</text>
+<text x="250" y="100" text-anchor="middle" fill="#ea580c" font-size="12">刺痛 / 泛红 / 脱屑</text>
+
+<!-- Red Zone -->
+<path d="M 336.6 125 A 150 150 0 0 1 400 250" fill="none" stroke="#f87171" stroke-width="40"/>
+<text x="390" y="110" text-anchor="end" fill="#dc2626" font-weight="bold">红色警报</text>
+<text x="390" y="130" text-anchor="end" fill="#dc2626" font-size="12">灼痛 / 红肿 / 丘疹</text>
+
+<!-- Needle -->
+<g transform="translate(250, 250)" filter="url(#shadow)">
+<line x1="0" y1="0" x2="-100" y2="-100" stroke="#111827" stroke-width="4" transform="rotate(0)"/>
+<circle cx="0" cy="0" r="10" fill="#1f2937"/>
+</g>
+<text x="250" y="280" text-anchor="middle" font-size="14" fill="#4b5563">你的皮肤正处于哪个阶段？</text>
 </svg>
 
 **等级一：黄色预警（轻度受损/亚健康）**

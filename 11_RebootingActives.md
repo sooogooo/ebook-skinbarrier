@@ -42,44 +42,44 @@
 ### 11.2 重启路线图：从“防御”到“进攻”
 
 <svg width="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="800" height="400" fill="#f9fafb"/>
-  <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">功效护肤“重启路线图”</text>
+<rect x="0" y="0" width="800" height="400" fill="#f9fafb"/>
+<text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">功效护肤“重启路线图”</text>
 
-  <path d="M 50 300 C 150 300, 150 200, 250 200 S 350 100, 450 100 S 550 200, 650 200 S 750 300, 750 300" stroke="#d1d5db" stroke-width="8" fill="none" stroke-dasharray="15 10"/>
+<path d="M 50 300 C 150 300, 150 200, 250 200 S 350 100, 450 100 S 550 200, 650 200 S 750 300, 750 300" stroke="#d1d5db" stroke-width="8" fill="none" stroke-dasharray="15 10"/>
 
-  <g id="start">
-    <circle cx="80" cy="300" r="25" fill="#16a34a" stroke="#f0fdf4" stroke-width="4"/>
-    <text x="80" y="305" text-anchor="middle" font-size="18" font-weight="bold" fill="white">起点</text>
-    <text x="80" y="350" text-anchor="middle" font-size="16" fill="#15803d">屏障稳定</text>
-    <text x="80" y="370" text-anchor="middle" font-size="12" fill="#15803d">(持续稳定>3个月)</text>
-  </g>
+<g id="start">
+<circle cx="80" cy="300" r="25" fill="#16a34a" stroke="#f0fdf4" stroke-width="4"/>
+<text x="80" y="305" text-anchor="middle" font-size="18" font-weight="bold" fill="white">起点</text>
+<text x="80" y="350" text-anchor="middle" font-size="16" fill="#15803d">屏障稳定</text>
+<text x="80" y="370" text-anchor="middle" font-size="12" fill="#15803d">(持续稳定>3个月)</text>
+</g>
 
-  <g id="step1">
-    <circle cx="250" cy="200" r="30" fill="#fbbf24" stroke="#fefce8" stroke-width="4"/>
-    <text x="250" y="205" text-anchor="middle" font-size="24" font-weight="bold" fill="#78350f">1</text>
-    <text x="250" y="140" text-anchor="middle" font-size="18" fill="#854d0e">第一步：抗氧化</text>
-    <text x="250" y="160" text-anchor="middle" font-size="12" fill="#854d0e">(温和的VC衍生物等)</text>
-  </g>
+<g id="step1">
+<circle cx="250" cy="200" r="30" fill="#fbbf24" stroke="#fefce8" stroke-width="4"/>
+<text x="250" y="205" text-anchor="middle" font-size="24" font-weight="bold" fill="#78350f">1</text>
+<text x="250" y="140" text-anchor="middle" font-size="18" fill="#854d0e">第一步：抗氧化</text>
+<text x="250" y="160" text-anchor="middle" font-size="12" fill="#854d0e">(温和的VC衍生物等)</text>
+</g>
 
-  <g id="step2">
-    <circle cx="450" cy="100" r="30" fill="#60a5fa" stroke="#eff6ff" stroke-width="4"/>
-    <text x="450" y="105" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e3a8a">2</text>
-    <text x="450" y="40" text-anchor="middle" font-size="18" fill="#1e40af">第二步：美白/焕肤</text>
-    <text x="450" y="60" text-anchor="middle" font-size="12" fill="#1e40af">(烟酰胺 / 温和酸类)</text>
-  </g>
+<g id="step2">
+<circle cx="450" cy="100" r="30" fill="#60a5fa" stroke="#eff6ff" stroke-width="4"/>
+<text x="450" y="105" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e3a8a">2</text>
+<text x="450" y="40" text-anchor="middle" font-size="18" fill="#1e40af">第二步：美白/焕肤</text>
+<text x="450" y="60" text-anchor="middle" font-size="12" fill="#1e40af">(烟酰胺 / 温和酸类)</text>
+</g>
 
-  <g id="step3">
-    <circle cx="650" cy="200" r="30" fill="#f472b6" stroke="#fdf2f8" stroke-width="4"/>
-    <text x="650" y="205" text-anchor="middle" font-size="24" font-weight="bold" fill="#831843">3</text>
-    <text x="650" y="140" text-anchor="middle" font-size="18" fill="#9d174d">第三步：抗衰老</text>
-    <text x="650" y="160" text-anchor="middle" font-size="12" fill="#9d174d">(A醇及其衍生物)</text>
-  </g>
+<g id="step3">
+<circle cx="650" cy="200" r="30" fill="#f472b6" stroke="#fdf2f8" stroke-width="4"/>
+<text x="650" y="205" text-anchor="middle" font-size="24" font-weight="bold" fill="#831843">3</text>
+<text x="650" y="140" text-anchor="middle" font-size="18" fill="#9d174d">第三步：抗衰老</text>
+<text x="650" y="160" text-anchor="middle" font-size="12" fill="#9d174d">(A醇及其衍生物)</text>
+</g>
 
-  <g id="end">
-    <circle cx="720" cy="300" r="25" fill="#8b5cf6" stroke="#f5f3ff" stroke-width="4"/>
-    <path d="M 710 300 L 718 310 L 730 290" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="720" y="350" text-anchor="middle" font-size="16" fill="#5b21b6">进阶成功</text>
-  </g>
+<g id="end">
+<circle cx="720" cy="300" r="25" fill="#8b5cf6" stroke="#f5f3ff" stroke-width="4"/>
+<path d="M 710 300 L 718 310 L 730 290" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="720" y="350" text-anchor="middle" font-size="16" fill="#5b21b6">进阶成功</text>
+</g>
 </svg>
 
 功效成分也有“性格”和“段位”之分。重启时，我们应该像打游戏升级一样，从最温和、最基础的“新手村”任务开始，逐步挑战更高难度的“副本”。

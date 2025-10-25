@@ -30,20 +30,17 @@
 *   **皮下组织 (Subcutaneous Tissue)**：蛋糕最底层的“饼底”。它主要是脂肪和结缔组织，像一个缓冲垫，连接着皮肤和肌肉，为我们提供支撑和保暖。
 
 <svg width="100%" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
-  <rect x="0" y="0" width="300" height="250" fill="#f9fafb"/>
-  <text x="150" y="25" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">皮肤结构分层示意图</text>
-  
-  <!-- Epidermis -->
-  <rect x="50" y="50" width="200" height="50" fill="#bae6fd"/>
-  <text x="150" y="80" text-anchor="middle" fill="#0c4a6e">表皮层 (护肤品作用层)</text>
-  
-  <!-- Dermis -->
-  <rect x="50" y="100" width="200" height="70" fill="#f0abfc"/>
-  <text x="150" y="135" text-anchor="middle" fill="#701a75">真皮层 (决定弹性与紧致)</text>
-  
-  <!-- Subcutaneous Tissue -->
-  <rect x="50" y="170" width="200" height="60" fill="#fde047"/>
-  <text x="150" y="200" text-anchor="middle" fill="#854d0e">皮下组织 (支撑与缓冲)</text>
+<rect x="0" y="0" width="300" height="250" fill="#f9fafb"/>
+<text x="150" y="25" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">皮肤结构分层示意图</text>
+<!-- Epidermis -->
+<rect x="50" y="50" width="200" height="50" fill="#bae6fd"/>
+<text x="150" y="80" text-anchor="middle" fill="#0c4a6e">表皮层 (护肤品作用层)</text>
+<!-- Dermis -->
+<rect x="50" y="100" width="200" height="70" fill="#f0abfc"/>
+<text x="150" y="135" text-anchor="middle" fill="#701a75">真皮层 (决定弹性与紧致)</text>
+<!-- Subcutaneous Tissue -->
+<rect x="50" y="170" width="200" height="60" fill="#fde047"/>
+<text x="150" y="200" text-anchor="middle" fill="#854d0e">皮下组织 (支撑与缓冲)</text>
 </svg>
 
 对于屏障修复来说，我们的焦点将牢牢锁定在最外层的**“表皮层”**。别看它薄，它内部又细分了四层，像四张紧密叠放的“保鲜膜”，从内到外分别是：基底层、有棘层、颗粒层、以及我们最重要的主角——**角质层 (Stratum Corneum)**。
@@ -57,48 +54,48 @@
 现在，我们终于来到了核心。通常我们所说的“皮肤屏障”，是一个功能性的概念集合，它并不仅仅指代“角质层”这一层物理结构。一个健康的皮肤屏障，是一个由四部分组成的、协同作战的“立体防御体系”。
 
 <svg width="100%" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
-  <style>
-    .icon-bg { fill: #eef2ff; }
-    .icon-color { fill: #4f46e5; }
-    .text-title { font-weight: bold; fill: #1e1b4b; }
-    .text-desc { fill: #4338ca; }
-  </style>
-  
-  <!-- Physical Barrier -->
-  <g transform="translate(50, 20)">
-    <rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
-    <path class="icon-color" d="M25 50 h100 v12.5 h-100 z M25 75 h50 v12.5 h-50 z M87.5 75 h37.5 v12.5 h-37.5 z M25 100 h100 v12.5 h-100 z" transform="translate(0, 5)"/>
-    <text class="text-title" x="75" y="110" text-anchor="middle">1. 物理屏障</text>
-    <text class="text-desc" x="75" y="130" text-anchor="middle">(砖墙结构)</text>
-  </g>
-  
-  <!-- Chemical Barrier -->
-  <g transform="translate(250, 20)">
-    <rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
-    <path class="icon-color" d="M75,30 C45,30 30,60 30,75 C30,90 45,120 75,120 C105,120 120,90 120,75 C120,60 105,30 75,30 Z M75,110 C50,110 40,85 40,75 C40,65 50,40 75,40 C100,40 110,65 110,75 C110,85 100,110 75,110 Z"/>
-    <text x="75" y="75" text-anchor="middle" font-size="10" class="icon-color">pH</text>
-    <text class="text-title" x="75" y="110" text-anchor="middle">2. 化学屏障</text>
-    <text class="text-desc" x="75" y="130" text-anchor="middle">(皮脂膜)</text>
-  </g>
-  
-  <!-- Immune Barrier -->
-  <g transform="translate(450, 20)">
-    <rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
-    <path class="icon-color" d="M75 30 L115 50 L95 80 L105 115 L75 95 L45 115 L55 80 L35 50 Z"/>
-    <text class="text-title" x="75" y="110" text-anchor="middle">3. 免疫屏障</text>
-    <text class="text-desc" x="75" y="130" text-anchor="middle">(哨兵细胞)</text>
-  </g>
-  
-  <!-- Microbiome Barrier -->
-  <g transform="translate(650, 20)">
-    <rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
-    <circle class="icon-color" cx="60" cy="50" r="8"/>
-    <circle class="icon-color" cx="90" cy="55" r="5"/>
-    <path class="icon-color" d="M50 70 q25 20 50 0"/>
-    <path class="icon-color" d="M45 85 q30 -20 60 0"/>
-    <text class="text-title" x="75" y="110" text-anchor="middle">4. 微生物屏障</text>
-    <text class="text-desc" x="75" y="130" text-anchor="middle">(皮肤菌群)</text>
-  </g>
+<style>
+.icon-bg { fill: #eef2ff; }
+.icon-color { fill: #4f46e5; }
+.text-title { font-weight: bold; fill: #1e1b4b; }
+.text-desc { fill: #4338ca; }
+</style>
+
+<!-- Physical Barrier -->
+<g transform="translate(50, 20)">
+<rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
+<path class="icon-color" d="M25 50 h100 v12.5 h-100 z M25 75 h50 v12.5 h-50 z M87.5 75 h37.5 v12.5 h-37.5 z M25 100 h100 v12.5 h-100 z" transform="translate(0, 5)"/>
+<text class="text-title" x="75" y="110" text-anchor="middle">1. 物理屏障</text>
+<text class="text-desc" x="75" y="130" text-anchor="middle">(砖墙结构)</text>
+</g>
+
+<!-- Chemical Barrier -->
+<g transform="translate(250, 20)">
+<rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
+<path class="icon-color" d="M75,30 C45,30 30,60 30,75 C30,90 45,120 75,120 C105,120 120,90 120,75 C120,60 105,30 75,30 Z M75,110 C50,110 40,85 40,75 C40,65 50,40 75,40 C100,40 110,65 110,75 C110,85 100,110 75,110 Z"/>
+<text x="75" y="75" text-anchor="middle" font-size="10" class="icon-color">pH</text>
+<text class="text-title" x="75" y="110" text-anchor="middle">2. 化学屏障</text>
+<text class="text-desc" x="75" y="130" text-anchor="middle">(皮脂膜)</text>
+</g>
+
+<!-- Immune Barrier -->
+<g transform="translate(450, 20)">
+<rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
+<path class="icon-color" d="M75 30 L115 50 L95 80 L105 115 L75 95 L45 115 L55 80 L35 50 Z"/>
+<text class="text-title" x="75" y="110" text-anchor="middle">3. 免疫屏障</text>
+<text class="text-desc" x="75" y="130" text-anchor="middle">(哨兵细胞)</text>
+</g>
+
+<!-- Microbiome Barrier -->
+<g transform="translate(650, 20)">
+<rect class="icon-bg" x="0" y="0" width="150" height="150" rx="15"/>
+<circle class="icon-color" cx="60" cy="50" r="8"/>
+<circle class="icon-color" cx="90" cy="55" r="5"/>
+<path class="icon-color" d="M50 70 q25 20 50 0"/>
+<path class="icon-color" d="M45 85 q30 -20 60 0"/>
+<text class="text-title" x="75" y="110" text-anchor="middle">4. 微生物屏障</text>
+<text class="text-desc" x="75" y="130" text-anchor="middle">(皮肤菌群)</text>
+</g>
 </svg>
 
 **1. 物理屏障：坚固的“砖墙-水泥”结构**
@@ -111,69 +108,69 @@
 > **【实用工具2：图解“砖墙结构”】**
 
 <svg width="100%" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
-  <rect x="0" y="0" width="800" height="450" fill="#f9fafb"/>
-  <line x1="400" y1="20" x2="400" y2="430" stroke="#d1d5db" stroke-width="2"/>
-  <text x="200" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">健康的皮肤屏障</text>
-  <text x="600" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">受损的皮肤屏障</text>
+<rect x="0" y="0" width="800" height="450" fill="#f9fafb"/>
+<line x1="400" y1="20" x2="400" y2="430" stroke="#d1d5db" stroke-width="2"/>
+<text x="200" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">健康的皮肤屏障</text>
+<text x="600" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">受损的皮肤屏障</text>
 
-  <g id="healthy-barrier">
-    <g fill="#a3bfb8" stroke="#374151" stroke-width="1">
-      <rect x="50" y="80" width="300" height="50" rx="5"/>
-      <rect x="50" y="140" width="140" height="50" rx="5"/>
-      <rect x="210" y="140" width="140" height="50" rx="5"/>
-      <rect x="50" y="200" width="300" height="50" rx="5"/>
-      <rect x="50" y="260" width="140" height="50" rx="5"/>
-      <rect x="210" y="260" width="140" height="50" rx="5"/>
-      <rect x="50" y="320" width="300" height="50" rx="5"/>
-    </g>
-    <text x="200" y="115" text-anchor="middle" fill="#275c4f">角质细胞 (砖块)</text>
-    <path d="M 50 135 C 150 130, 250 130, 350 135" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <path d="M 50 195 C 150 190, 250 190, 350 195" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <path d="M 50 255 C 150 250, 250 250, 350 255" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <path d="M 50 315 C 150 310, 250 310, 350 315" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <text x="100" y="180" fill="#f9fafb">细胞间脂质 (水泥)</text>
-    <text x="100" y="195" fill="#f9fafb">结构完整</text>
+<g id="healthy-barrier">
+<g fill="#a3bfb8" stroke="#374151" stroke-width="1">
+<rect x="50" y="80" width="300" height="50" rx="5"/>
+<rect x="50" y="140" width="140" height="50" rx="5"/>
+<rect x="210" y="140" width="140" height="50" rx="5"/>
+<rect x="50" y="200" width="300" height="50" rx="5"/>
+<rect x="50" y="260" width="140" height="50" rx="5"/>
+<rect x="210" y="260" width="140" height="50" rx="5"/>
+<rect x="50" y="320" width="300" height="50" rx="5"/>
+</g>
+<text x="200" y="115" text-anchor="middle" fill="#275c4f">角质细胞 (砖块)</text>
+<path d="M 50 135 C 150 130, 250 130, 350 135" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M 50 195 C 150 190, 250 190, 350 195" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M 50 255 C 150 250, 250 250, 350 255" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M 50 315 C 150 310, 250 310, 350 315" stroke="#6b7280" stroke-width="10" fill="none" stroke-linecap="round"/>
+<text x="100" y="180" fill="#f9fafb">细胞间脂质 (水泥)</text>
+<text x="100" y="195" fill="#f9fafb">结构完整</text>
 
-    <text x="50" y="400" fill="#16a34a">✔ 结构完整致密</text>
-    <text x="50" y="420" fill="#16a34a">✔ 有效锁住水分</text>
-    <text x="220" y="400" fill="#16a34a">✔ 抵御外界刺激</text>
-  </g>
+<text x="50" y="400" fill="#16a34a">✔ 结构完整致密</text>
+<text x="50" y="420" fill="#16a34a">✔ 有效锁住水分</text>
+<text x="220" y="400" fill="#16a34a">✔ 抵御外界刺激</text>
+</g>
 
-  <g id="damaged-barrier">
-    <g fill="#fca5a5" stroke="#991b1b" stroke-width="1">
-      <rect x="450" y="80" width="300" height="50" rx="5" transform="rotate(-2, 600, 105)"/>
-      <rect x="460" y="145" width="130" height="50" rx="5"/>
-      <rect x="620" y="140" width="130" height="50" rx="5" transform="rotate(3, 685, 165)"/>
-      <rect x="450" y="210" width="300" height="50" rx="5"/>
-      <rect x="455" y="275" width="140" height="50" rx="5" transform="rotate(-1, 525, 300)"/>
-      <rect x="615" y="270" width="140" height="50" rx="5"/>
-      <rect x="450" y="330" width="300" height="50" rx="5"/>
-    </g>
-    <text x="600" y="115" text-anchor="middle" fill="#991b1b">角质细胞 (砖块)</text>
-    <text x="600" y="130" text-anchor="middle" fill="#991b1b">排列混乱</text>
-    <path d="M 450 200 C 550 198, 650 198, 750 200" stroke="#ef4444" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="10 5"/>
-    <path d="M 450 270 C 550 268, 650 268, 750 270" stroke="#ef4444" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="10 5"/>
-    <text x="480" y="250" fill="#7f1d1d">细胞间脂质 (水泥)</text>
-    <text x="480" y="265" fill="#7f1d1d">大量流失</text>
+<g id="damaged-barrier">
+<g fill="#fca5a5" stroke="#991b1b" stroke-width="1">
+<rect x="450" y="80" width="300" height="50" rx="5" transform="rotate(-2, 600, 105)"/>
+<rect x="460" y="145" width="130" height="50" rx="5"/>
+<rect x="620" y="140" width="130" height="50" rx="5" transform="rotate(3, 685, 165)"/>
+<rect x="450" y="210" width="300" height="50" rx="5"/>
+<rect x="455" y="275" width="140" height="50" rx="5" transform="rotate(-1, 525, 300)"/>
+<rect x="615" y="270" width="140" height="50" rx="5"/>
+<rect x="450" y="330" width="300" height="50" rx="5"/>
+</g>
+<text x="600" y="115" text-anchor="middle" fill="#991b1b">角质细胞 (砖块)</text>
+<text x="600" y="130" text-anchor="middle" fill="#991b1b">排列混乱</text>
+<path d="M 450 200 C 550 198, 650 198, 750 200" stroke="#ef4444" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="10 5"/>
+<path d="M 450 270 C 550 268, 650 268, 750 270" stroke="#ef4444" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="10 5"/>
+<text x="480" y="250" fill="#7f1d1d">细胞间脂质 (水泥)</text>
+<text x="480" y="265" fill="#7f1d1d">大量流失</text>
 
-    <g id="intruders">
-      <path d="M 600 50 L 600 180" stroke="#854d0e" stroke-width="2" marker-end="url(#arrow)"/>
-      <defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#854d0e"/></marker></defs>
-      <circle cx="600" cy="190" r="15" fill="#facc15"/>
-      <text x="600" y="195" text-anchor="middle" font-size="18" fill="#854d0e">!</text>
-      <text x="630" y="170" fill="#854d0e">刺激物入侵</text>
-    </g>
-    <g id="escapees">
-      <path d="M 600 330 L 600 420" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-blue)"/>
-      <defs><marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0284c7"/></marker></defs>
-      <circle cx="600" cy="315" r="10" fill="#7dd3fc"/>
-      <text x="630" y="330" fill="#0369a1">水分流失</text>
-    </g>
+<g id="intruders">
+<path d="M 600 50 L 600 180" stroke="#854d0e" stroke-width="2" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#854d0e"/></marker></defs>
+<circle cx="600" cy="190" r="15" fill="#facc15"/>
+<text x="600" y="195" text-anchor="middle" font-size="18" fill="#854d0e">!</text>
+<text x="630" y="170" fill="#854d0e">刺激物入侵</text>
+</g>
+<g id="escapees">
+<path d="M 600 330 L 600 420" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<defs><marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0284c7"/></marker></defs>
+<circle cx="600" cy="315" r="10" fill="#7dd3fc"/>
+<text x="630" y="330" fill="#0369a1">水分流失</text>
+</g>
 
-    <text x="450" y="400" fill="#dc2626">❌ 结构松散破损</text>
-    <text x="450" y="420" fill="#dc2626">❌ 水分加速流失 (TEWL↑)</text>
-    <text x="620" y="400" fill="#dc2626">❌ 刺激物易入侵</text>
-  </g>
+<text x="450" y="400" fill="#dc2626">❌ 结构松散破损</text>
+<text x="450" y="420" fill="#dc2626">❌ 水分加速流失 (TEWL↑)</text>
+<text x="620" y="400" fill="#dc2626">❌ 刺激物易入侵</text>
+</g>
 </svg>
 
 这个结构，一方面能有效防止外界的刺激物（如细菌、过敏原、化学物质）轻易入侵，另一方面，也能像给水库加了个盖子一样，牢牢锁住皮肤内部的水分，防止其过快蒸发。

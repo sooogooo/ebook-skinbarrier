@@ -14,57 +14,57 @@
 ### 8.1 紫外线：正在积极搞破坏的“头号刺客”
 
 <svg width="100%" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="600" height="400" fill="#f9fafb"/>
-  <text x="300" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">UVA / UVB 穿透皮肤深度示意图</text>
+<rect x="0" y="0" width="600" height="400" fill="#f9fafb"/>
+<text x="300" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">UVA / UVB 穿透皮肤深度示意图</text>
 
-  <!-- Sun -->
-  <circle cx="150" cy="100" r="30" fill="#facc15"/>
-  <g stroke="#f59e0b" stroke-width="2">
-    <line x1="150" y1="50" x2="150" y2="20"/>
-    <line x1="150" y1="150" x2="150" y2="180"/>
-    <line x1="100" y1="100" x2="70" y2="100"/>
-    <line x1="200" y1="100" x2="230" y2="100"/>
-    <line x1="115" y1="65" x2="95" y2="45"/>
-    <line x1="185" y1="135" x2="205" y2="155"/>
-    <line x1="115" y1="135" x2="95" y2="155"/>
-    <line x1="185" y1="65" x2="205" y2="45"/>
-  </g>
+<!-- Sun -->
+<circle cx="150" cy="100" r="30" fill="#facc15"/>
+<g stroke="#f59e0b" stroke-width="2">
+<line x1="150" y1="50" x2="150" y2="20"/>
+<line x1="150" y1="150" x2="150" y2="180"/>
+<line x1="100" y1="100" x2="70" y2="100"/>
+<line x1="200" y1="100" x2="230" y2="100"/>
+<line x1="115" y1="65" x2="95" y2="45"/>
+<line x1="185" y1="135" x2="205" y2="155"/>
+<line x1="115" y1="135" x2="95" y2="155"/>
+<line x1="185" y1="65" x2="205" y2="45"/>
+</g>
 
-  <!-- Skin Layers -->
-  <g id="skin-layers">
-    <rect x="300" y="80" width="250" height="300" fill="#fef2f2"/>
-    <rect x="300" y="80" width="250" height="100" fill="#fee2e2"/>
-    <rect x="300" y="80" width="250" height="20" fill="#fecaca"/>
-    <text x="570" y="105" text-anchor="end" font-size="14" fill="#7f1d1d">角质层</text>
-    <text x="570" y="150" text-anchor="end" font-size="16" font-weight="bold" fill="#991b1b">表皮层</text>
-    <text x="570" y="250" text-anchor="end" font-size="16" font-weight="bold" fill="#991b1b">真皮层</text>
-  </g>
+<!-- Skin Layers -->
+<g id="skin-layers">
+<rect x="300" y="80" width="250" height="300" fill="#fef2f2"/>
+<rect x="300" y="80" width="250" height="100" fill="#fee2e2"/>
+<rect x="300" y="80" width="250" height="20" fill="#fecaca"/>
+<text x="570" y="105" text-anchor="end" font-size="14" fill="#7f1d1d">角质层</text>
+<text x="570" y="150" text-anchor="end" font-size="16" font-weight="bold" fill="#991b1b">表皮层</text>
+<text x="570" y="250" text-anchor="end" font-size="16" font-weight="bold" fill="#991b1b">真皮层</text>
+</g>
 
-  <!-- UVB Ray -->
-  <g id="uvb-ray">
-    <path d="M 200 120 C 250 140, 300 120, 350 140" stroke="#fb923c" stroke-width="3" fill="none" marker-end="url(#arrow-uv)"/>
-    <defs>
-      <marker id="arrow-uv" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#fb923c"/>
-      </marker>
-    </defs>
-    <rect x="180" y="150" width="150" height="50" rx="5" fill="#ffedd5" stroke="#f97316"/>
-    <text x="255" y="170" text-anchor="middle" font-weight="bold" fill="#c2410c">UVB (中波)</text>
-    <text x="255" y="190" text-anchor="middle" font-size="12" fill="#c2410c">→ 晒伤 / 晒红</text>
-  </g>
+<!-- UVB Ray -->
+<g id="uvb-ray">
+<path d="M 200 120 C 250 140, 300 120, 350 140" stroke="#fb923c" stroke-width="3" fill="none" marker-end="url(#arrow-uv)"/>
+<defs>
+<marker id="arrow-uv" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#fb923c"/>
+</marker>
+</defs>
+<rect x="180" y="150" width="150" height="50" rx="5" fill="#ffedd5" stroke="#f97316"/>
+<text x="255" y="170" text-anchor="middle" font-weight="bold" fill="#c2410c">UVB (中波)</text>
+<text x="255" y="190" text-anchor="middle" font-size="12" fill="#c2410c">→ 晒伤 / 晒红</text>
+</g>
 
-  <!-- UVA Ray -->
-  <g id="uva-ray">
-    <path d="M 200 80 C 280 80, 320 180, 450 250" stroke="#f43f5e" stroke-width="3" fill="none" marker-end="url(#arrow-uva)"/>
-    <defs>
-      <marker id="arrow-uva" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#f43f5e"/>
-      </marker>
-    </defs>
-    <rect x="180" y="280" width="150" height="50" rx="5" fill="#ffe4e6" stroke="#e11d48"/>
-    <text x="255" y="300" text-anchor="middle" font-weight="bold" fill="#be123c">UVA (长波)</text>
-    <text x="255" y="320" text-anchor="middle" font-size="12" fill="#be123c">→ 晒黑 / 老化</text>
-  </g>
+<!-- UVA Ray -->
+<g id="uva-ray">
+<path d="M 200 80 C 280 80, 320 180, 450 250" stroke="#f43f5e" stroke-width="3" fill="none" marker-end="url(#arrow-uva)"/>
+<defs>
+<marker id="arrow-uva" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#f43f5e"/>
+</marker>
+</defs>
+<rect x="180" y="280" width="150" height="50" rx="5" fill="#ffe4e6" stroke="#e11d48"/>
+<text x="255" y="300" text-anchor="middle" font-weight="bold" fill="#be123c">UVA (长波)</text>
+<text x="255" y="320" text-anchor="middle" font-size="12" fill="#be123c">→ 晒黑 / 老化</text>
+</g>
 </svg>
 
 为什么紫外线（UV）的危害如此之大？因为它能从多个维度、多个层次，对你正在艰难重建的“城墙”进行降维打击。
@@ -114,61 +114,61 @@
     *   **需要等待**：通常需要提前15-20分钟涂抹才能起效。
 
 <svg width="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="800" height="400" fill="#f9fafb"/>
-  <line x1="400" y1="20" x2="400" y2="380" stroke="#d1d5db" stroke-width="2"/>
-  
-  <text x="200" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">物理防晒 (反射/散射)</text>
-  <text x="600" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">化学防晒 (吸收/转化)</text>
+<rect x="0" y="0" width="800" height="400" fill="#f9fafb"/>
+<line x1="400" y1="20" x2="400" y2="380" stroke="#d1d5db" stroke-width="2"/>
 
-  <g id="physical-sunscreen">
-    <rect x="50" y="250" width="300" height="50" fill="#fecaca"/>
-    <text x="200" y="280" text-anchor="middle" fill="#7f1d1d">表皮层</text>
-    <rect x="50" y="300" width="300" height="80" fill="#fee2e2"/>
-    <text x="200" y="340" text-anchor="middle" fill="#7f1d1d">真皮层</text>
-    
-    <rect x="50" y="230" width="300" height="20" fill="#e5e7eb" stroke="#6b7280"/>
-    <text x="200" y="220" text-anchor="middle" fill="#374151">防晒剂层 (盾牌)</text>
+<text x="200" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">物理防晒 (反射/散射)</text>
+<text x="600" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">化学防晒 (吸收/转化)</text>
 
-    <g stroke="#f59e0b" stroke-width="3">
-      <line x1="150" y1="80" x2="150" y2="230"/>
-      <line x1="150" y1="230" x2="100" y2="180" marker-end="url(#arrow-reflect)"/>
-      <line x1="250" y1="80" x2="250" y2="230"/>
-      <line x1="250" y1="230" x2="300" y2="180" marker-end="url(#arrow-reflect)"/>
-    </g>
-    <text x="200" y="100" text-anchor="middle" font-size="16" fill="#b45309">紫外线</text>
-    <defs>
-      <marker id="arrow-reflect" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-        <path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/>
-      </marker>
-    </defs>
-    <text x="200" y="380" text-anchor="middle" font-weight="bold" fill="#16a34a">✔ 温和 / 低刺激</text>
-  </g>
+<g id="physical-sunscreen">
+<rect x="50" y="250" width="300" height="50" fill="#fecaca"/>
+<text x="200" y="280" text-anchor="middle" fill="#7f1d1d">表皮层</text>
+<rect x="50" y="300" width="300" height="80" fill="#fee2e2"/>
+<text x="200" y="340" text-anchor="middle" fill="#7f1d1d">真皮层</text>
 
-  <g id="chemical-sunscreen">
-    <rect x="450" y="250" width="300" height="50" fill="#fecaca"/>
-    <text x="600" y="280" text-anchor="middle" fill="#7f1d1d">表皮层</text>
-    <rect x="450" y="300" width="300" height="80" fill="#fee2e2"/>
-    <text x="600" y="340" text-anchor="middle" fill="#7f1d1d">真皮层</text>
+<rect x="50" y="230" width="300" height="20" fill="#e5e7eb" stroke="#6b7280"/>
+<text x="200" y="220" text-anchor="middle" fill="#374151">防晒剂层 (盾牌)</text>
 
-    <circle cx="520" cy="265" r="8" fill="#3b82f6"/>
-    <circle cx="600" cy="260" r="8" fill="#3b82f6"/>
-    <circle cx="680" cy="270" r="8" fill="#3b82f6"/>
-    <text x="600" y="220" text-anchor="middle" fill="#1e40af">防晒剂被皮肤吸收</text>
+<g stroke="#f59e0b" stroke-width="3">
+<line x1="150" y1="80" x2="150" y2="230"/>
+<line x1="150" y1="230" x2="100" y2="180" marker-end="url(#arrow-reflect)"/>
+<line x1="250" y1="80" x2="250" y2="230"/>
+<line x1="250" y1="230" x2="300" y2="180" marker-end="url(#arrow-reflect)"/>
+</g>
+<text x="200" y="100" text-anchor="middle" font-size="16" fill="#b45309">紫外线</text>
+<defs>
+<marker id="arrow-reflect" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/>
+</marker>
+</defs>
+<text x="200" y="380" text-anchor="middle" font-weight="bold" fill="#16a34a">✔ 温和 / 低刺激</text>
+</g>
 
-    <g stroke="#f59e0b" stroke-width="3">
-      <line x1="550" y1="80" x2="550" y2="260"/>
-      <line x1="650" y1="80" x2="650" y2="265"/>
-    </g>
-    <text x="600" y="100" text-anchor="middle" font-size="16" fill="#b45309">紫外线</text>
-    
-    <g fill="#ef4444" font-size="12">
-      <path d="M 540 240 q 5 -10 10 0 t 10 0" stroke="#ef4444" stroke-width="2" fill="none"/>
-      <path d="M 640 245 q 5 -10 10 0 t 10 0" stroke="#ef4444" stroke-width="2" fill="none"/>
-      <text x="580" y="180">转化为无害热能</text>
-      <text x="580" y="200">释放出去</text>
-    </g>
-    <text x="600" y="380" text-anchor="middle" font-weight="bold" fill="#dc2626">❌ 潜在刺激性</text>
-  </g>
+<g id="chemical-sunscreen">
+<rect x="450" y="250" width="300" height="50" fill="#fecaca"/>
+<text x="600" y="280" text-anchor="middle" fill="#7f1d1d">表皮层</text>
+<rect x="450" y="300" width="300" height="80" fill="#fee2e2"/>
+<text x="600" y="340" text-anchor="middle" fill="#7f1d1d">真皮层</text>
+
+<circle cx="520" cy="265" r="8" fill="#3b82f6"/>
+<circle cx="600" cy="260" r="8" fill="#3b82f6"/>
+<circle cx="680" cy="270" r="8" fill="#3b82f6"/>
+<text x="600" y="220" text-anchor="middle" fill="#1e40af">防晒剂被皮肤吸收</text>
+
+<g stroke="#f59e0b" stroke-width="3">
+<line x1="550" y1="80" x2="550" y2="260"/>
+<line x1="650" y1="80" x2="650" y2="265"/>
+</g>
+<text x="600" y="100" text-anchor="middle" font-size="16" fill="#b45309">紫外线</text>
+
+<g fill="#ef4444" font-size="12">
+<path d="M 540 240 q 5 -10 10 0 t 10 0" stroke="#ef4444" stroke-width="2" fill="none"/>
+<path d="M 640 245 q 5 -10 10 0 t 10 0" stroke="#ef4444" stroke-width="2" fill="none"/>
+<text x="580" y="180">转化为无害热能</text>
+<text x="580" y="200">释放出去</text>
+</g>
+<text x="600" y="380" text-anchor="middle" font-weight="bold" fill="#dc2626">❌ 潜在刺激性</text>
+</g>
 </svg>
 
 **修复期防晒选择的唯一准则：**

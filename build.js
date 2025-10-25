@@ -3,6 +3,42 @@ const fs = require('fs').promises;
 const path = require('path');
 const marked = require('marked');
 
+// Configure marked to properly handle HTML
+marked.use({
+    breaks: false,
+    gfm: true,
+    pedantic: false,
+    mangle: false,
+    headerIds: false
+});
+
+// Function to fix indentation issues in SVG blocks
+function preprocessMarkdown(markdown) {
+    // Find all SVG blocks and remove internal indentation
+    return markdown.replace(/(<svg[\s\S]*?<\/svg>)/g, (match) => {
+        // Split into lines
+        const lines = match.split('\n');
+        // Find minimum indentation (excluding empty lines and first line)
+        let minIndent = Infinity;
+        for (let i = 1; i < lines.length; i++) {
+            const line = lines[i];
+            if (line.trim().length > 0) {
+                const indent = line.match(/^(\s*)/)[1].length;
+                minIndent = Math.min(minIndent, indent);
+            }
+        }
+        // Remove the minimum indentation from all lines except the first
+        if (minIndent < Infinity && minIndent > 0) {
+            for (let i = 1; i < lines.length; i++) {
+                if (lines[i].length >= minIndent) {
+                    lines[i] = lines[i].substring(minIndent);
+                }
+            }
+        }
+        return lines.join('\n');
+    });
+}
+
 async function main() {
     console.log('Starting build...');
     const files = await fs.readdir('.');
@@ -128,7 +164,9 @@ async function main() {
     for (let i = 0; i < mdFiles.length; i++) {
         const file = mdFiles[i];
         const anchor = chapterTitles[i].anchor;
-        const markdown = await fs.readFile(file, 'utf-8');
+        let markdown = await fs.readFile(file, 'utf-8');
+        // Preprocess markdown to fix SVG indentation
+        markdown = preprocessMarkdown(markdown);
         const chapterHtml = marked.parse(markdown);
         htmlContent += `<div id="${anchor}">${chapterHtml}</div>`;
     }

@@ -70,110 +70,110 @@
 #### **【实用工具9：“护肤品停用/启用”决策流程图】**
 
 <svg width="100%" viewBox="0 0 800 950" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <style>
-    .decision { fill: #fef3c7; stroke: #f59e0b; }
-    .action-red { fill: #fee2e2; stroke: #dc2626; }
-    .action-yellow { fill: #fef9c3; stroke: #ca8a04; }
-    .action-green { fill: #dcfce7; stroke: #16a34a; }
-    .line { stroke: #6b7280; stroke-width: 2; marker-end: url(#arrowhead); }
-    .text-label { font-size: 14px; fill: #4b5563; }
-    .text-title { font-size: 16px; font-weight: bold; fill: #1f2937; }
-    .text-desc { font-size: 13px; fill: #374151; }
-  </style>
-  <defs>
-    <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280"/>
-    </marker>
-  </defs>
+<style>
+.decision { fill: #fef3c7; stroke: #f59e0b; }
+.action-red { fill: #fee2e2; stroke: #dc2626; }
+.action-yellow { fill: #fef9c3; stroke: #ca8a04; }
+.action-green { fill: #dcfce7; stroke: #16a34a; }
+.line { stroke: #6b7280; stroke-width: 2; marker-end: url(#arrowhead); }
+.text-label { font-size: 14px; fill: #4b5563; }
+.text-title { font-size: 16px; font-weight: bold; fill: #1f2937; }
+.text-desc { font-size: 13px; fill: #374151; }
+</style>
+<defs>
+<marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#6b7280"/>
+</marker>
+</defs>
 
-  <rect x="300" y="20" width="200" height="50" rx="25" fill="#e5e7eb" stroke="#9ca3af"/>
-  <text x="400" y="50" text-anchor="middle" class="text-title">起点：审视皮肤状态</text>
+<rect x="300" y="20" width="200" height="50" rx="25" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="400" y="50" text-anchor="middle" class="text-title">起点：审视皮肤状态</text>
 
-  <line x1="400" y1="70" x2="400" y2="100" class="line"/>
+<line x1="400" y1="70" x2="400" y2="100" class="line"/>
 
-  <path class="decision" d="M400,100 L550,150 L400,200 L250,150 Z"/>
-  <text x="400" y="145" text-anchor="middle" class="text-title">处于“橙色/红色警报”?</text>
-  <text x="400" y="165" text-anchor="middle" class="text-desc">(泛红/刺痛/灼热/脱皮)</text>
+<path class="decision" d="M400,100 L550,150 L400,200 L250,150 Z"/>
+<text x="400" y="145" text-anchor="middle" class="text-title">处于“橙色/红色警报”?</text>
+<text x="400" y="165" text-anchor="middle" class="text-desc">(泛红/刺痛/灼热/脱皮)</text>
 
-  <line x1="250" y1="150" x2="150" y2="150" class="line"/>
-  <line x1="150" y1="150" x2="150" y2="230" class="line"/>
-  <text x="200" y="130" class="text-label" font-weight="bold">是</text>
-  
-  <g id="red-channel">
-    <rect x="50" y="230" width="200" height="60" rx="10" class="action-red"/>
-    <text x="150" y="255" text-anchor="middle" class="text-title">进入【红色通道】</text>
-    <text x="150" y="275" text-anchor="middle" class="text-desc">紧急管制模式</text>
-    
-    <line x1="150" y1="290" x2="150" y2="320" class="line"/>
-    
-    <rect x="50" y="320" width="200" height="100" rx="10" class="action-red"/>
-    <text x="150" y="340" text-anchor="middle" class="text-title">1. 立即停用所有产品</text>
-    <text x="150" y="365" text-anchor="middle" class="text-desc">清洁: 仅用温水</text>
-    <text x="150" y="385" text-anchor="middle" class="text-desc">保湿: 仅用凡士林</text>
-    <text x="150" y="405" text-anchor="middle" class="text-desc">防晒: 严格硬防晒</text>
+<line x1="250" y1="150" x2="150" y2="150" class="line"/>
+<line x1="150" y1="150" x2="150" y2="230" class="line"/>
+<text x="200" y="130" class="text-label" font-weight="bold">是</text>
 
-    <line x1="150" y1="420" x2="150" y2="450" class="line"/>
+<g id="red-channel">
+<rect x="50" y="230" width="200" height="60" rx="10" class="action-red"/>
+<text x="150" y="255" text-anchor="middle" class="text-title">进入【红色通道】</text>
+<text x="150" y="275" text-anchor="middle" class="text-desc">紧急管制模式</text>
 
-    <rect x="50" y="450" width="200" height="80" rx="10" class="action-red"/>
-    <text x="150" y="475" text-anchor="middle" class="text-title">2. 持续至少7-14天</text>
-    <text x="150" y="500" text-anchor="middle" class="text-desc">直到急性不适感消失</text>
-    
-    <line x1="150" y1="530" x2="150" y2="560" class="line"/>
-    <line x1="150" y1="560" x2="400" y2="560" class="line"/>
-    <line x1="400" y1="560" x2="400" y2="590" class="line"/>
-    <text x="275" y="550" class="text-label">好转后</text>
-  </g>
+<line x1="150" y1="290" x2="150" y2="320" class="line"/>
 
-  <line x1="550" y1="150" x2="650" y2="150" class="line"/>
-  <line x1="650" y1="150" x2="650" y2="230" class="line"/>
-  <text x="600" y="130" class="text-label" font-weight="bold">否</text>
+<rect x="50" y="320" width="200" height="100" rx="10" class="action-red"/>
+<text x="150" y="340" text-anchor="middle" class="text-title">1. 立即停用所有产品</text>
+<text x="150" y="365" text-anchor="middle" class="text-desc">清洁: 仅用温水</text>
+<text x="150" y="385" text-anchor="middle" class="text-desc">保湿: 仅用凡士林</text>
+<text x="150" y="405" text-anchor="middle" class="text-desc">防晒: 严格硬防晒</text>
 
-  <g id="yellow-channel">
-    <rect x="550" y="230" width="200" height="60" rx="10" class="action-yellow"/>
-    <text x="650" y="255" text-anchor="middle" class="text-title">进入【黄色通道】</text>
-    <text x="650" y="275" text-anchor="middle" class="text-desc">标准修复模式</text>
+<line x1="150" y1="420" x2="150" y2="450" class="line"/>
 
-    <line x1="650" y1="290" x2="650" y2="320" class="line"/>
+<rect x="50" y="450" width="200" height="80" rx="10" class="action-red"/>
+<text x="150" y="475" text-anchor="middle" class="text-title">2. 持续至少7-14天</text>
+<text x="150" y="500" text-anchor="middle" class="text-desc">直到急性不适感消失</text>
 
-    <rect x="550" y="320" width="200" height="80" rx="10" class="action-yellow"/>
-    <text x="650" y="345" text-anchor="middle" class="text-title">1. 执行极简流程</text>
-    <text x="650" y="370" text-anchor="middle" class="text-desc">(清洁-保湿-防晒)</text>
+<line x1="150" y1="530" x2="150" y2="560" class="line"/>
+<line x1="150" y1="560" x2="400" y2="560" class="line"/>
+<line x1="400" y1="560" x2="400" y2="590" class="line"/>
+<text x="275" y="550" class="text-label">好转后</text>
+</g>
 
-    <line x1="650" y1="400" x2="650" y2="430" class="line"/>
+<line x1="550" y1="150" x2="650" y2="150" class="line"/>
+<line x1="650" y1="150" x2="650" y2="230" class="line"/>
+<text x="600" y="130" class="text-label" font-weight="bold">否</text>
 
-    <rect x="550" y="430" width="200" height="80" rx="10" class="action-yellow"/>
-    <text x="650" y="455" text-anchor="middle" class="text-title">2. 持续至少28天</text>
-    <text x="650" y="480" text-anchor="middle" class="text-desc">(一个皮肤代谢周期)</text>
-    
-    <line x1="650" y1="510" x2="650" y2="560" class="line"/>
-    <line x1="650" y1="560" x2="400" y2="560" class="line"/>
-  </g>
+<g id="yellow-channel">
+<rect x="550" y="230" width="200" height="60" rx="10" class="action-yellow"/>
+<text x="650" y="255" text-anchor="middle" class="text-title">进入【黄色通道】</text>
+<text x="650" y="275" text-anchor="middle" class="text-desc">标准修复模式</text>
 
-  <rect x="300" y="590" width="200" height="50" rx="10" class="action-green"/>
-  <text x="400" y="620" text-anchor="middle" class="text-title">评估：皮肤是否稳定？</text>
+<line x1="650" y1="290" x2="650" y2="320" class="line"/>
 
-  <line x1="400" y1="640" x2="400" y2="670" class="line"/>
+<rect x="550" y="320" width="200" height="80" rx="10" class="action-yellow"/>
+<text x="650" y="345" text-anchor="middle" class="text-title">1. 执行极简流程</text>
+<text x="650" y="370" text-anchor="middle" class="text-desc">(清洁-保湿-防晒)</text>
 
-  <path class="decision" d="M400,670 L500,700 L400,730 L300,700 Z"/>
-  <text x="400" y="705" text-anchor="middle" class="text-title">稳定？</text>
+<line x1="650" y1="400" x2="650" y2="430" class="line"/>
 
-  <line x1="500" y1="700" x2="650" y2="700" class="line"/>
-  <line x1="650" y1="700" x2="650" y2="760" class="line"/>
-  <text x="575" y="690" class="text-label" font-weight="bold">是</text>
+<rect x="550" y="430" width="200" height="80" rx="10" class="action-yellow"/>
+<text x="650" y="455" text-anchor="middle" class="text-title">2. 持续至少28天</text>
+<text x="650" y="480" text-anchor="middle" class="text-desc">(一个皮肤代谢周期)</text>
 
-  <rect x="550" y="760" width="200" height="100" rx="10" class="action-green"/>
-  <text x="650" y="785" text-anchor="middle" class="text-title">可以考虑“重启”护肤</text>
-  <text x="650" y="815" text-anchor="middle" class="text-desc" font-weight="bold">原则：</text>
-  <text x="650" y="835" text-anchor="middle" class="text-desc">“一次只加一个,</text>
-  <text x="650" y="850" text-anchor="middle" class="text-desc">观察至少一周”</text>
+<line x1="650" y1="510" x2="650" y2="560" class="line"/>
+<line x1="650" y1="560" x2="400" y2="560" class="line"/>
+</g>
 
-  <line x1="300" y1="700" x2="150" y2="700" class="line"/>
-  <line x1="150" y1="700" x2="150" y2="760" class="line"/>
-  <text x="225" y="690" class="text-label" font-weight="bold">否</text>
+<rect x="300" y="590" width="200" height="50" rx="10" class="action-green"/>
+<text x="400" y="620" text-anchor="middle" class="text-title">评估：皮肤是否稳定？</text>
 
-  <rect x="50" y="760" width="200" height="80" rx="10" class="action-yellow"/>
-  <text x="150" y="795" text-anchor="middle" class="text-title">继续标准修复模式</text>
-  <text x="150" y="820" text-anchor="middle" class="text-desc">或咨询医生</text>
+<line x1="400" y1="640" x2="400" y2="670" class="line"/>
+
+<path class="decision" d="M400,670 L500,700 L400,730 L300,700 Z"/>
+<text x="400" y="705" text-anchor="middle" class="text-title">稳定？</text>
+
+<line x1="500" y1="700" x2="650" y2="700" class="line"/>
+<line x1="650" y1="700" x2="650" y2="760" class="line"/>
+<text x="575" y="690" class="text-label" font-weight="bold">是</text>
+
+<rect x="550" y="760" width="200" height="100" rx="10" class="action-green"/>
+<text x="650" y="785" text-anchor="middle" class="text-title">可以考虑“重启”护肤</text>
+<text x="650" y="815" text-anchor="middle" class="text-desc" font-weight="bold">原则：</text>
+<text x="650" y="835" text-anchor="middle" class="text-desc">“一次只加一个,</text>
+<text x="650" y="850" text-anchor="middle" class="text-desc">观察至少一周”</text>
+
+<line x1="300" y1="700" x2="150" y2="700" class="line"/>
+<line x1="150" y1="700" x2="150" y2="760" class="line"/>
+<text x="225" y="690" class="text-label" font-weight="bold">否</text>
+
+<rect x="50" y="760" width="200" height="80" rx="10" class="action-yellow"/>
+<text x="150" y="795" text-anchor="middle" class="text-title">继续标准修复模式</text>
+<text x="150" y="820" text-anchor="middle" class="text-desc">或咨询医生</text>
 
 </svg>
 

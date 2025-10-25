@@ -69,54 +69,43 @@
 #### **【实用工具22：“生理周期护肤”日历】**
 
 <svg width="100%" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <defs>
-    <path id="follicular-text-path" d="M 120,300 A 180,180 0 0,1 480,300" />
-    <path id="luteal-text-path" d="M 480,300 A 180,180 0 0,1 120,300" />
-  </defs>
-  
-  <rect x="0" y="0" width="600" height="600" fill="#f9fafb"/>
-  <text x="300" y="50" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">生理周期护肤策略</text>
-
-  <!-- Cycle Background -->
-  <circle cx="300" cy="300" r="200" fill="#f3f4f6"/>
-
-  <!-- Follicular Phase (卵泡期) -->
-  <path d="M300,100 A200,200 0 0,1 500,300 L300,300 Z" fill="#dcfce7"/>
-  <g transform="translate(30, 25)">
-    <text x="380" y="150" text-anchor="middle" font-size="20" font-weight="bold" fill="#15803d">卵泡期</text>
-    <text x="380" y="175" text-anchor="middle" font-size="14" fill="#166534">(月经后, Day 5-14)</text>
-    <text x="380" y="205" text-anchor="middle" font-size="14" fill="#16a34a">皮肤特点：黄金时期</text>
-    <text x="380" y="225" text-anchor="middle" font-size="14" fill="#16a34a">屏障强韧，状态佳</text>
-    <text x="380" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#14532d">策略：积极进取</text>
-    <text x="380" y="275" text-anchor="middle" font-size="12" fill="#14532d">(可尝试功效产品)</text>
-  </g>
-
-  <!-- Luteal Phase (黄体期) -->
-  <path d="M500,300 A200,200 0 0,1 100,300 L300,300 Z" fill="#ffedd5"/>
-  <g transform="translate(-30, 25)">
-    <text x="220" y="450" text-anchor="middle" font-size="20" font-weight="bold" fill="#c2410c">黄体期</text>
-    <text x="220" y="425" text-anchor="middle" font-size="14" fill="#9a3412">(排卵后, Day 15-28)</text>
-    <text x="220" y="395" text-anchor="middle" font-size="14" fill="#ea580c">皮肤特点：警戒时期</text>
-    <text x="220" y="375" text-anchor="middle" font-size="14" fill="#ea580c">出油增多，易长痘</text>
-    <text x="220" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#7c2d12">策略：保守防御</text>
-    <text x="220" y="325" text-anchor="middle" font-size="12" fill="#7c2d12">(加强控油，舒缓抗炎)</text>
-  </g>
-
-  <!-- Menstrual Phase (月经期) -->
-  <path d="M100,300 A200,200 0 0,1 300,100 L300,300 Z" fill="#fee2e2"/>
-  <g transform="translate(-20, -20)">
-    <text x="150" y="150" text-anchor="middle" font-size="20" font-weight="bold" fill="#991b1b">月经期</text>
-    <text x="150" y="175" text-anchor="middle" font-size="14" fill="#b91c1c">(Day 1-4)</text>
-    <text x="150" y="205" text-anchor="middle" font-size="14" fill="#dc2626">皮肤特点：休养时期</text>
-    <text x="150" y="225" text-anchor="middle" font-size="14" fill="#dc2626">干燥、敏感、暗沉</text>
-    <text x="150" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#7f1d1d">策略：温和修复</text>
-    <text x="150" y="275" text-anchor="middle" font-size="12" fill="#7f1d1d">(回归基础保湿舒缓)</text>
-  </g>
-
-  <!-- Center Circle -->
-  <circle cx="300" cy="300" r="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="4"/>
-  <text x="300" y="295" text-anchor="middle" font-size="18" font-weight="bold" fill="#374151">顺势而为</text>
-  <text x="300" y="320" text-anchor="middle" font-size="14" fill="#4b5563">动态护肤</text>
+<defs>
+<path id="follicular-text-path" d="M 120,300 A 180,180 0 0,1 480,300" />
+<path id="luteal-text-path" d="M 480,300 A 180,180 0 0,1 120,300" />
+</defs>
+<rect x="0" y="0" width="600" height="600" fill="#f9fafb"/>
+<text x="300" y="50" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">生理周期护肤策略</text>
+<circle cx="300" cy="300" r="200" fill="#f3f4f6"/>
+<path d="M300,100 A200,200 0 0,1 500,300 L300,300 Z" fill="#dcfce7"/>
+<g transform="translate(30, 25)">
+<text x="380" y="150" text-anchor="middle" font-size="20" font-weight="bold" fill="#15803d">卵泡期</text>
+<text x="380" y="175" text-anchor="middle" font-size="14" fill="#166534">(月经后, Day 5-14)</text>
+<text x="380" y="205" text-anchor="middle" font-size="14" fill="#16a34a">皮肤特点：黄金时期</text>
+<text x="380" y="225" text-anchor="middle" font-size="14" fill="#16a34a">屏障强韧，状态佳</text>
+<text x="380" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#14532d">策略：积极进取</text>
+<text x="380" y="275" text-anchor="middle" font-size="12" fill="#14532d">(可尝试功效产品)</text>
+</g>
+<path d="M500,300 A200,200 0 0,1 100,300 L300,300 Z" fill="#ffedd5"/>
+<g transform="translate(-30, 25)">
+<text x="220" y="450" text-anchor="middle" font-size="20" font-weight="bold" fill="#c2410c">黄体期</text>
+<text x="220" y="425" text-anchor="middle" font-size="14" fill="#9a3412">(排卵后, Day 15-28)</text>
+<text x="220" y="395" text-anchor="middle" font-size="14" fill="#ea580c">皮肤特点：警戒时期</text>
+<text x="220" y="375" text-anchor="middle" font-size="14" fill="#ea580c">出油增多，易长痘</text>
+<text x="220" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#7c2d12">策略：保守防御</text>
+<text x="220" y="325" text-anchor="middle" font-size="12" fill="#7c2d12">(加强控油，舒缓抗炎)</text>
+</g>
+<path d="M100,300 A200,200 0 0,1 300,100 L300,300 Z" fill="#fee2e2"/>
+<g transform="translate(-20, -20)">
+<text x="150" y="150" text-anchor="middle" font-size="20" font-weight="bold" fill="#991b1b">月经期</text>
+<text x="150" y="175" text-anchor="middle" font-size="14" fill="#b91c1c">(Day 1-4)</text>
+<text x="150" y="205" text-anchor="middle" font-size="14" fill="#dc2626">皮肤特点：休养时期</text>
+<text x="150" y="225" text-anchor="middle" font-size="14" fill="#dc2626">干燥、敏感、暗沉</text>
+<text x="150" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#7f1d1d">策略：温和修复</text>
+<text x="150" y="275" text-anchor="middle" font-size="12" fill="#7f1d1d">(回归基础保湿舒缓)</text>
+</g>
+<circle cx="300" cy="300" r="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="4"/>
+<text x="300" y="295" text-anchor="middle" font-size="18" font-weight="bold" fill="#374151">顺势而为</text>
+<text x="300" y="320" text-anchor="middle" font-size="14" fill="#4b5563">动态护肤</text>
 </svg>
 
 对于女性而言，体内的荷尔蒙周期是影响皮肤状态的最大内部变量。学会“顺势而为”，能让你的护肤事半功倍。

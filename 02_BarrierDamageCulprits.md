@@ -82,35 +82,35 @@
 ### 2.3 恶性循环的“雪崩效应”
 
 <svg width="100%" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="800" height="300" fill="#f9fafb"/>
-  <text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">屏障受损的“多米诺骨牌”效应</text>
+<rect x="0" y="0" width="800" height="300" fill="#f9fafb"/>
+<text x="400" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">屏障受损的“多米诺骨牌”效应</text>
 
-  <g stroke="#374151" stroke-width="2" fill="#fca5a5">
-    <rect x="100" y="100" width="60" height="120" rx="5" transform="rotate(15, 130, 160)"/>
-    <text x="130" y="150" text-anchor="middle" fill="#7f1d1d" font-weight="bold">不当护肤</text>
-    <text x="130" y="170" text-anchor="middle" fill="#7f1d1d">(过度清洁等)</text>
+<g stroke="#374151" stroke-width="2" fill="#fca5a5">
+<rect x="100" y="100" width="60" height="120" rx="5" transform="rotate(15, 130, 160)"/>
+<text x="130" y="150" text-anchor="middle" fill="#7f1d1d" font-weight="bold">不当护肤</text>
+<text x="130" y="170" text-anchor="middle" fill="#7f1d1d">(过度清洁等)</text>
 
-    <path d="M 190 160 C 220 160, 220 160, 250 160" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead-red)"/>
-    <defs><marker id="arrowhead-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker></defs>
+<path d="M 190 160 C 220 160, 220 160, 250 160" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+<defs><marker id="arrowhead-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444"/></marker></defs>
 
-    <rect x="280" y="100" width="60" height="120" rx="5" transform="rotate(25, 310, 160)"/>
-    <text x="310" y="160" text-anchor="middle" fill="#7f1d1d" font-weight="bold">屏障受损</text>
+<rect x="280" y="100" width="60" height="120" rx="5" transform="rotate(25, 310, 160)"/>
+<text x="310" y="160" text-anchor="middle" fill="#7f1d1d" font-weight="bold">屏障受损</text>
 
-    <path d="M 370 160 C 400 160, 400 160, 430 160" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+<path d="M 370 160 C 400 160, 400 160, 430 160" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead-red)"/>
 
-    <rect x="460" y="100" width="60" height="120" rx="5" transform="rotate(45, 490, 160)"/>
-    <text x="490" y="145" text-anchor="middle" fill="#7f1d1d" font-weight="bold">水分流失</text>
-    <text x="490" y="165" text-anchor="middle" fill="#7f1d1d" font-weight="bold">刺激物入侵</text>
+<rect x="460" y="100" width="60" height="120" rx="5" transform="rotate(45, 490, 160)"/>
+<text x="490" y="145" text-anchor="middle" fill="#7f1d1d" font-weight="bold">水分流失</text>
+<text x="490" y="165" text-anchor="middle" fill="#7f1d1d" font-weight="bold">刺激物入侵</text>
 
-    <path d="M 550 160 C 580 160, 580 160, 610 160" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+<path d="M 550 160 C 580 160, 580 160, 610 160" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowhead-red)"/>
 
-    <rect x="640" y="100" width="60" height="120" rx="5" transform="rotate(65, 670, 160)"/>
-    <text x="670" y="160" text-anchor="middle" fill="#7f1d1d" font-weight="bold">炎症爆发</text>
-    
-    <path d="M 730 160 C 780 160, 800 250, 400 270 C 0 290, 20 160, 70 160" stroke="#991b1b" stroke-width="2.5" fill="none" stroke-dasharray="8 4" marker-end="url(#arrowhead-loop)"/>
-    <defs><marker id="arrowhead-loop" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#991b1b"/></marker></defs>
-    <text x="400" y="290" text-anchor="middle" fill="#991b1b" font-weight="bold">损伤加剧，开启恶性循环</text>
-  </g>
+<rect x="640" y="100" width="60" height="120" rx="5" transform="rotate(65, 670, 160)"/>
+<text x="670" y="160" text-anchor="middle" fill="#7f1d1d" font-weight="bold">炎症爆发</text>
+
+<path d="M 730 160 C 780 160, 800 250, 400 270 C 0 290, 20 160, 70 160" stroke="#991b1b" stroke-width="2.5" fill="none" stroke-dasharray="8 4" marker-end="url(#arrowhead-loop)"/>
+<defs><marker id="arrowhead-loop" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#991b1b"/></marker></defs>
+<text x="400" y="290" text-anchor="middle" fill="#991b1b" font-weight="bold">损伤加剧，开启恶性循环</text>
+</g>
 </svg>
 
 屏障受损最可怕的地方，在于它一旦开始，就很容易陷入一个自我加速的“恶性循环”，像滚雪球一样，越来越糟。

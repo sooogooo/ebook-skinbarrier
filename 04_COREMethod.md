@@ -71,47 +71,47 @@ C.O.R.E. 是四个英文单词的首字母缩写，它代表了屏障修复过�
 **行动口诀：内巩固，外防御。**
 
 <svg width="100%" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="500" height="500" fill="#f9fafb"/>
-  <defs>
-    <path id="circle-path" d="M 250, 250 m -150, 0 a 150,150 0 1,1 300,0 a 150,150 0 1,1 -300,0"/>
-    <marker id="arrow-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4b5563"/>
-    </marker>
-  </defs>
+<rect x="0" y="0" width="500" height="500" fill="#f9fafb"/>
+<defs>
+<path id="circle-path" d="M 250, 250 m -150, 0 a 150,150 0 1,1 300,0 a 150,150 0 1,1 -300,0"/>
+<marker id="arrow-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#4b5563"/>
+</marker>
+</defs>
 
-  <circle cx="250" cy="250" r="150" fill="none" stroke="#d1d5db" stroke-width="50"/>
-  <path d="M 250, 100 A 150 150 0 0 1 400 250" stroke="#a7f3d0" stroke-width="50" fill="none"/>
-  <path d="M 400, 250 A 150 150 0 0 1 250 400" stroke="#bfdbfe" stroke-width="50" fill="none"/>
-  <path d="M 250, 400 A 150 150 0 0 1 100 250" stroke="#fecaca" stroke-width="50" fill="none"/>
-  <path d="M 100, 250 A 150 150 0 0 1 250 100" stroke="#fed7aa" stroke-width="50" fill="none"/>
+<circle cx="250" cy="250" r="150" fill="none" stroke="#d1d5db" stroke-width="50"/>
+<path d="M 250, 100 A 150 150 0 0 1 400 250" stroke="#a7f3d0" stroke-width="50" fill="none"/>
+<path d="M 400, 250 A 150 150 0 0 1 250 400" stroke="#bfdbfe" stroke-width="50" fill="none"/>
+<path d="M 250, 400 A 150 150 0 0 1 100 250" stroke="#fecaca" stroke-width="50" fill="none"/>
+<path d="M 100, 250 A 150 150 0 0 1 250 100" stroke="#fed7aa" stroke-width="50" fill="none"/>
 
-  <g font-size="22" font-weight="bold" fill="#1f2937" text-anchor="middle">
-    <text x="250" y="80">C</text>
-    <text x="420" y="258">O</text>
-    <text x="250" y="430">R</text>
-    <text x="80" y="258">E</text>
-  </g>
-  
-  <g font-size="16" fill="#374151" text-anchor="middle">
-    <text x="250" y="105">舒缓镇静</text>
-    <text x="395" y="280">优化环境</text>
-    <text x="250" y="405">修复结构</text>
-    <text x="105" y="280">强化防御</text>
-  </g>
+<g font-size="22" font-weight="bold" fill="#1f2937" text-anchor="middle">
+<text x="250" y="80">C</text>
+<text x="420" y="258">O</text>
+<text x="250" y="430">R</text>
+<text x="80" y="258">E</text>
+</g>
 
-  <g marker-end="url(#arrow-head)">
-      <path d="M 353, 147 A 150 150 0 0 1 353 353" fill="none" stroke="none" id="arrow-path-1"/>
-      <path d="M 353, 353 A 150 150 0 0 1 147 353" fill="none" stroke="none" id="arrow-path-2"/>
-      <path d="M 147, 353 A 150 150 0 0 1 147 147" fill="none" stroke="none" id="arrow-path-3"/>
-      <path d="M 147, 147 A 150 150 0 0 1 353 147" fill="none" stroke="none" id="arrow-path-4"/>
-  </g>
-  
-  <circle cx="353" cy="147" r="10" fill="#4b5563"/>
-  <circle cx="353" cy="353" r="10" fill="#4b5563"/>
-  <circle cx="147" cy="353" r="10" fill="#4b5563"/>
-  <circle cx="147" cy="147" r="10" fill="#4b5563"/>
+<g font-size="16" fill="#374151" text-anchor="middle">
+<text x="250" y="105">舒缓镇静</text>
+<text x="395" y="280">优化环境</text>
+<text x="250" y="405">修复结构</text>
+<text x="105" y="280">强化防御</text>
+</g>
 
-  <text x="250" y="258" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e3a8a">C.O.R.E. 修复循环</text>
+<g marker-end="url(#arrow-head)">
+<path d="M 353, 147 A 150 150 0 0 1 353 353" fill="none" stroke="none" id="arrow-path-1"/>
+<path d="M 353, 353 A 150 150 0 0 1 147 353" fill="none" stroke="none" id="arrow-path-2"/>
+<path d="M 147, 353 A 150 150 0 0 1 147 147" fill="none" stroke="none" id="arrow-path-3"/>
+<path d="M 147, 147 A 150 150 0 0 1 353 147" fill="none" stroke="none" id="arrow-path-4"/>
+</g>
+
+<circle cx="353" cy="147" r="10" fill="#4b5563"/>
+<circle cx="353" cy="353" r="10" fill="#4b5563"/>
+<circle cx="147" cy="353" r="10" fill="#4b5563"/>
+<circle cx="147" cy="147" r="10" fill="#4b5563"/>
+
+<text x="250" y="258" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e3a8a">C.O.R.E. 修复循环</text>
 </svg>
 
 ---

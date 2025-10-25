@@ -40,48 +40,48 @@
 | **APG (Alkyl Polyglucoside)** | 名称通常以 **“...葡糖苷”** 结尾。如：癸基葡糖苷、月桂基葡糖苷、椰油基葡糖苷。 | “植物系”表活的代表。由葡萄糖和脂肪醇制成，非常温和，对环境友好。刺激性甚至比氨基酸表活还低。 |
 
 <svg width="100%" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="800" height="250" fill="#f9fafb"/>
-  <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">皮肤表面pH值与洁面产品对比</text>
+<rect x="0" y="0" width="800" height="250" fill="#f9fafb"/>
+<text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">皮肤表面pH值与洁面产品对比</text>
 
-  <!-- pH Scale Bar -->
-  <defs>
-    <linearGradient id="phGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#22c55e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect x="50" y="80" width="700" height="40" rx="10" fill="url(#phGradient)"/>
+<!-- pH Scale Bar -->
+<defs>
+<linearGradient id="phGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+<stop offset="50%" style="stop-color:#22c55e;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+</linearGradient>
+</defs>
+<rect x="50" y="80" width="700" height="40" rx="10" fill="url(#phGradient)"/>
 
-  <!-- Scale Ticks and Labels -->
-  <g text-anchor="middle" font-size="12" fill="#374151">
-    <text x="50" y="140">0</text>
-    <line x1="50" y1="120" x2="50" y2="130" stroke="#374151" stroke-width="1"/>
-    <text x="400" y="140">7 (中性)</text>
-    <line x1="400" y1="70" x2="400" y2="130" stroke="#374151" stroke-width="1.5"/>
-    <text x="750" y="140">14</text>
-    <line x1="750" y1="120" x2="750" y2="130" stroke="#374151" stroke-width="1"/>
-    <text x="100" y="65" font-size="14" fill="#b91c1c">酸性</text>
-    <text x="700" y="65" font-size="14" fill="#1d4ed8">碱性</text>
-  </g>
+<!-- Scale Ticks and Labels -->
+<g text-anchor="middle" font-size="12" fill="#374151">
+<text x="50" y="140">0</text>
+<line x1="50" y1="120" x2="50" y2="130" stroke="#374151" stroke-width="1"/>
+<text x="400" y="140">7 (中性)</text>
+<line x1="400" y1="70" x2="400" y2="130" stroke="#374151" stroke-width="1.5"/>
+<text x="750" y="140">14</text>
+<line x1="750" y1="120" x2="750" y2="130" stroke="#374151" stroke-width="1"/>
+<text x="100" y="65" font-size="14" fill="#b91c1c">酸性</text>
+<text x="700" y="65" font-size="14" fill="#1d4ed8">碱性</text>
+</g>
 
-  <!-- Healthy Skin Range -->
-  <g>
-    <path d="M 275 150 L 275 180 L 325 180 L 325 150" fill="none" stroke="#16a34a" stroke-width="2"/>
-    <line x1="300" y1="120" x2="300" y2="150" stroke="#16a34a" stroke-width="2"/>
-    <rect x="250" y="180" width="100" height="50" rx="5" fill="#dcfce7" stroke="#16a34a"/>
-    <text x="300" y="200" text-anchor="middle" font-weight="bold" fill="#15803d">健康皮肤</text>
-    <text x="300" y="220" text-anchor="middle" font-size="12" fill="#15803d">pH 4.5 - 6.5</text>
-  </g>
+<!-- Healthy Skin Range -->
+<g>
+<path d="M 275 150 L 275 180 L 325 180 L 325 150" fill="none" stroke="#16a34a" stroke-width="2"/>
+<line x1="300" y1="120" x2="300" y2="150" stroke="#16a34a" stroke-width="2"/>
+<rect x="250" y="180" width="100" height="50" rx="5" fill="#dcfce7" stroke="#16a34a"/>
+<text x="300" y="200" text-anchor="middle" font-weight="bold" fill="#15803d">健康皮肤</text>
+<text x="300" y="220" text-anchor="middle" font-size="12" fill="#15803d">pH 4.5 - 6.5</text>
+</g>
 
-  <!-- Soap Cleanser Range -->
-  <g>
-    <path d="M 500 150 L 500 180 L 600 180 L 600 150" fill="none" stroke="#dc2626" stroke-width="2"/>
-    <line x1="550" y1="120" x2="550" y2="150" stroke="#dc2626" stroke-width="2"/>
-    <rect x="475" y="180" width="150" height="50" rx="5" fill="#fee2e2" stroke="#dc2626"/>
-    <text x="550" y="200" text-anchor="middle" font-weight="bold" fill="#991b1b">皂基洁面</text>
-    <text x="550" y="220" text-anchor="middle" font-size="12" fill="#991b1b">pH 9.0 - 11.0</text>
-  </g>
+<!-- Soap Cleanser Range -->
+<g>
+<path d="M 500 150 L 500 180 L 600 180 L 600 150" fill="none" stroke="#dc2626" stroke-width="2"/>
+<line x1="550" y1="120" x2="550" y2="150" stroke="#dc2626" stroke-width="2"/>
+<rect x="475" y="180" width="150" height="50" rx="5" fill="#fee2e2" stroke="#dc2626"/>
+<text x="550" y="200" text-anchor="middle" font-weight="bold" fill="#991b1b">皂基洁面</text>
+<text x="550" y="220" text-anchor="middle" font-size="12" fill="#991b1b">pH 9.0 - 11.0</text>
+</g>
 </svg>
 
 **修复期选择洁面的黄金法则：**
